@@ -54,3 +54,17 @@ backpack.unshift('Jynx statue')
 console.log(onlyPidgey, backpack)
 
 
+backpack.shift()
+
+console.log(backpack)
+
+let wildPokemon = 'butterfree'
+backpack.shift()
+let lunch = pokemon.splice(1, 1, wildPokemon)
+console.log('this is my back pack now')
+console.log(backpack)
+console.log('here are the pokemon')
+console.log(pokemon)
+console.log('pidgey is our lunch')
+console.log(lunch)
+
