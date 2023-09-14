@@ -68,3 +68,12 @@ console.log(pokemon)
 console.log('pidgey is our lunch')
 console.log(lunch)
 
+
+for ( let i = 0; i < pokemon.length; i++){
+    if(pokemon[i] === 'pidgey'){
+        pokemon[i] = 'pidgeotto'
+    }
+}
+
+console.log('my pidgeys are now bad ass')
+console.log(pokemon)
